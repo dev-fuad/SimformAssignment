@@ -22,9 +22,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   photo: {
-    width: vw(35),
-    height: vw(35),
-    borderRadius: vw(15),
+    width: vw(36),
+    height: vw(36),
+    borderRadius: vw(18),
   },
   heading: {
     fontSize: 22,

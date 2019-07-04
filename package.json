@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "expo": "^33.0.0",
+    "expo-av": "~5.0.2",
     "expo-image-picker": "~5.0.2",
+    "expo-permissions": "~5.0.1",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-navigation": "^3.11.0",

@@ -16,6 +16,7 @@ export default (state = InitialState, action) => {
       };
     case GET_MORE_VIDEOS:
       return {
+        ...state,
         videos: [...state.videos, ...state.cache],
         isLoading: false,
       };

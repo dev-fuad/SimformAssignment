@@ -5,4 +5,5 @@ export const Navigations = Object.freeze({
 export const Screens = Object.freeze({
   login: 'Login',
   register: 'Register',
+  home: 'Home',
 });

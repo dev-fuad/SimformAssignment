@@ -15,12 +15,12 @@ const setLoadingAction = payload => ({
 });
 
 export const getVideos = () => async dispatch => {
-  const url = '';
+  const url = 'https://private-c31a5-task27.apiary-mock.com/videos';
   dispatch(setLoadingAction(true));
   try {
     const result = await fetch(url).then(res => res.json());
     if (result && result.videos && Array.isArray(result.videos)) {
-      dispatch(getVideoAction(result));
+      dispatch(getVideoAction(result.videos));
     } else {
       dispatch(setLoadingAction(false));
     }
